@@ -85,9 +85,6 @@ Click "Deploy App"
 Set the app path: main.py
 
 Add secret environment variable:
-
-ini
-Copy code
 HUGGINGFACE_API_KEY=your_token_here
 Click Deploy
 
