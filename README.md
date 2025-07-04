@@ -37,14 +37,14 @@ cd NoteNinja
 
 2. Create a Virtual Environment (optional)
 python -m venv venv
-# Activate the venv
+Activate the venv
 venv\Scripts\activate     # On Windows
 source venv/bin/activate  # On macOS/Linux
 
-3. Install Dependencies
+4. Install Dependencies
 pip install -r requirements.txt
 
-4. Configure API Key
+5. Configure API Key
 Create a .env file in the root directory:
 
 env
