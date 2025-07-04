@@ -34,88 +34,45 @@ NoteNinja is a powerful PDF Question-Answering assistant that allows users to up
 
 git clone https://github.com/BHANUKONTHAM-1109/NoteNinja.git
 cd NoteNinja
-
-<<<<<<< HEAD
-2. Create a Virtual Environment (optional)
-python -m venv venv
-=======
 ---
-
 ### 2. Create a Virtual Environment (optional)
 python -m venv venv
-
->>>>>>> 1481c9b (Add project README)
 Activate the venv
 venv\Scripts\activate     # On Windows
 source venv/bin/activate  # On macOS/Linux
-
-<<<<<<< HEAD
-4. Install Dependencies
-pip install -r requirements.txt
-
-5. Configure API Key
-=======
 ---
-
 ### 3. Install Dependencies
 pip install -r requirements.txt
-
 ---
-
-4. Configure API Key
->>>>>>> 1481c9b (Add project README)
+## 4. Configure API Key
 Create a .env file in the root directory:
-
 env
 HUGGINGFACE_API_KEY=your_huggingface_token_here
 ⚠️ Your .env file is included in .gitignore and will not be uploaded to GitHub.
-
-🚀 Run the App
-streamlit run main.py
-
-<<<<<<< HEAD
-📁 Folder Structure
-=======
 ---
-
+## 5. 🚀 Run the App
+streamlit run main.py
+---
 ## 📁 Folder Structure
->>>>>>> 1481c9b (Add project README)
-
 NoteNinja/
 ├── main.py
 ├── requirements.txt
 ├── .env               
 ├── .gitignore
 ├── README.md
-<<<<<<< HEAD
-└── utils/              
-=======
-└── utils/             
-
 ---
-
->>>>>>> 1481c9b (Add project README)
-💬 Example Use Case
+## 💬 Example Use Case
 Upload your class notes PDF
 
 Ask: "What is the definition of entropy in this document?"
 
 Get instant, context-aware answers extracted from your PDF
-
-<<<<<<< HEAD
-📸 Screenshots
-
-=======
 ---
-
 ## 📸 Screenshots
 You can add screenshots below after deploying:
->>>>>>> 1481c9b (Add project README)
 
 Upload PDF	Ask a Question	Get Answers
-
 ---
-
 ## 🌍 Deploy on Streamlit Cloud
 Push your code to GitHub
 
@@ -130,14 +87,14 @@ Add secret environment variable:
 HUGGINGFACE_API_KEY=your_token_here
 
 Click Deploy
-
+---
 ## 📄 License
 This project is licensed under the MIT License. See the LICENSE file for details.
-
+---
 ## 🤝 Contributing
 Contributions are welcome!
 Please fork the repository and submit a pull request.
-
+---
 ## 👤 Author
 Bhanu Kontham
 🔗 GitHub: @BHANUKONTHAM-1109
